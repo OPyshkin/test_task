@@ -14,13 +14,13 @@ int main(void)
     }
     */
     
-    setMaximumValue(12);
+    setMaximumValue(25);
     for (int i = 0; i < 100; i++) {
         incrementNumber();
         a = getNumber();
         printf("\n%d\n", a);
     }
-    setMaximumValue(-2);
+    setMaximumValue(100);
     
     a = getNumber();
     printf("\nfinally =%d\n", a);

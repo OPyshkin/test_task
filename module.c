@@ -4,8 +4,8 @@
  * Version 1.0
  * Function prototypes an module.h
 */
+#include "module.h"
 
-#include "stdio.h"
 
 /** Declaring global variable for incremented number */
 int numberGlobal=0;
