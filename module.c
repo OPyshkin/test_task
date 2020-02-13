@@ -1,29 +1,27 @@
 #include "module.h"
+#include "stdio.h"
+int numberGlobal=0;
+int maxValGlobal=2147483647;
 
-int number=0;
-int maxVal=2147483647;
-
-int getNumber()
-{
-    return number;
+int getNumber() {
+    return numberGlobal;
 }
 
 
-void incrementNumber()
-{
-    if (number<maxVal)
-    {
-        ++number;
+void incrementNumber() {
+    if (numberGlobal < maxValGlobal) {
+        ++numberGlobal;
     }
-    else
-    {
-        number=0;
-    }
-    
+    else {
+        numberGlobal = 0;
+    } 
 }
 
 
-void setMaximumValue(int maximumValue)
-{
-   maxVal = maximumValue;
+void setMaximumValue(int maximumValue) {
+    if (maximumValue < 0)
+        printf("error occured");
+    if (maximumValue<numberGlobal)
+        numberGlobal = 0;
+    maxValGlobal = maximumValue;
 }
