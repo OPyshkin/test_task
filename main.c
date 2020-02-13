@@ -3,6 +3,7 @@
 #include <stdio.h>
 int main(void)
 {
+    printf("%d", __INT_MAX__);
     int a = getNumber();
     printf("\n%d\n", a);
     /*

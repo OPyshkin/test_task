@@ -11,7 +11,7 @@
 int numberGlobal=0;
 
 /** Declaring global variable for setting maximum value of incremented number */
-int maxValGlobal=2147483647;
+int maxValGlobal=__INT_MAX__;
 
 /** Returning current number */
 int getNumber() {
