@@ -1,7 +1,8 @@
 /**
- * module for incrementinig
- * author OPyshkin
- * version 1.0
+ * Module for incrementinig
+ * Author OPyshkin
+ * Version 1.0
+ * Function prototypes an module.h
 */
 
 #include "stdio.h"
@@ -28,9 +29,9 @@ void incrementNumber() {
 }
 
 /** Setting maximum value for incrementation
- * throwing an error at setting maximumValue less than 0
- * setting global number value to zero at reaching max value 
- * params: int maximumValue
+ * Throwing an error at setting maximumValue less than 0
+ * Setting global number value to zero at reaching max value 
+ * Params: int maximumValue
 */
 void setMaximumValue(int maximumValue) {
     if (maximumValue < 0)
