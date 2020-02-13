@@ -9,12 +9,11 @@ int getNumber() {
 
 
 void incrementNumber() {
-    if (numberGlobal < maxValGlobal) {
+    if (numberGlobal < maxValGlobal) 
         ++numberGlobal;
-    }
-    else {
+    else
         numberGlobal = 0;
-    } 
+    
 }
 
 
